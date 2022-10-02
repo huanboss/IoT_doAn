@@ -1,35 +1,7 @@
-*{
-    font-family: sans-serif;
-}
-
-h1{
-    /* background-color: chocolate; */
-    padding: 10px 20px 10px 10px;
-    margin: 0px;
-}
-
-#RTC{
-    padding: 10px;
-    background-color: #c7bdb3;
-}
-
-body{
-    background-color: #ebeef8;
-}
-
-#left {
-   width: 100%;
-   background-color: darksalmon;
-   float: center;
-}
-
-.boxtitle{
-    font-weight: bold;
-    font-size: medium;
-    padding: 20px 20px 20px 10px;
-    font-size: 125%;
-    border-top: aliceblue solid 2px;
-    border-bottom: aliceblue solid 2px;
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #f6f9ff;
+    color: #444444;
 }
 
 #h-header{
@@ -75,7 +47,7 @@ body{
     width: 20%;
 }
 
-#h-temp ,#h-humi , #h-bodyTemp, #h-eco2{
+#h-Heart ,#h-Spo2 , #h-BodyTemp, #h-Eco2{
     float: left;
     width: 17.5%;
 }
@@ -91,7 +63,7 @@ body{
     float: left;
 }
 
-#temp-content, #humi-content, #bodyTemp-content , #eco2-content{
+#Heart-content, #Spo2-content, #BodyTemp-content , #Eco2-content{
     width: 17.5%;
     float: left;
 }

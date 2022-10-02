@@ -3,19 +3,24 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "TruongNQ",
   "license": "ISC",
   "dependencies": {
+    "aws-iot-device-sdk": "^2.2.12",
+    "ejs": "^3.1.6",
     "express": "^4.17.3",
+    "highcharts": "^10.2.1",
     "mqtt": "^4.3.6",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
-    "ejs": "^3.1.6",
-    "nodemon": "^2.0.15",
-    "socket.io": "^4.4.1"
+    "socket.io": "^4.4.1",
+    "sqlite3": "^5.0.10"
   },
-  "devDependencies": {},
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
